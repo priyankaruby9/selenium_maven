@@ -18,9 +18,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
 public class Baseclass {
-	
-
-	public static WebDriver driver;
+		public static WebDriver driver;
 	
 	 XSSFWorkbook wbook;
 	 XSSFSheet sheet;

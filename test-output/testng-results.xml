@@ -1,40 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-12T22:55:00 EST" name="Default suite" finished-at="2022-03-12T22:55:10 EST" duration-ms="10894">
+  <suite started-at="2022-03-26T00:46:11 EDT" name="Default suite" finished-at="2022-03-26T00:46:11 EDT" duration-ms="66">
     <groups>
     </groups>
-    <test started-at="2022-03-12T22:55:00 EST" name="Default test" finished-at="2022-03-12T22:55:10 EST" duration-ms="10894">
-      <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="DataSetUP()[pri:0, instance:testcases.LoginTest@c88a337]" started-at="2022-03-12T22:55:00 EST" name="DataSetUP" finished-at="2022-03-12T22:55:01 EST" duration-ms="1203" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DataSetUP -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.LoginTest@c88a337]" started-at="2022-03-12T22:55:01 EST" name="setup" finished-at="2022-03-12T22:55:05 EST" duration-ms="4063" status="PASS">
+    <test started-at="2022-03-26T00:46:11 EDT" name="Default test" finished-at="2022-03-26T00:46:11 EDT" duration-ms="66">
+      <class name="testcases.DataProviderExample">
+        <test-method signature="PrintData(java.lang.String)[pri:0, instance:testcases.DataProviderExample@383bfa16]" started-at="2022-03-26T00:46:11 EDT" name="PrintData" data-provider="dp-name" finished-at="2022-03-26T00:46:11 EDT" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.LoginTest.LoginFailureTest()]]>
+                <![CDATA[First-data]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="LoginFailureTest()[pri:0, instance:testcases.LoginTest@c88a337]" started-at="2022-03-12T22:55:05 EST" name="LoginFailureTest" finished-at="2022-03-12T22:55:10 EST" duration-ms="4937" status="PASS">
+        </test-method> <!-- PrintData -->
+        <test-method signature="PrintData(java.lang.String)[pri:0, instance:testcases.DataProviderExample@383bfa16]" started-at="2022-03-26T00:46:11 EDT" name="PrintData" data-provider="dp-name" finished-at="2022-03-26T00:46:11 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Second-data]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginFailureTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.LoginTest@c88a337]" started-at="2022-03-12T22:55:10 EST" name="TearDown" finished-at="2022-03-12T22:55:10 EST" duration-ms="261" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="DataTearDown()[pri:0, instance:testcases.LoginTest@c88a337]" started-at="2022-03-12T22:55:10 EST" name="DataTearDown" finished-at="2022-03-12T22:55:10 EST" duration-ms="380" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DataTearDown -->
-      </class> <!-- testcases.LoginTest -->
+        </test-method> <!-- PrintData -->
+      </class> <!-- testcases.DataProviderExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
